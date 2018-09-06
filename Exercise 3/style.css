@@ -1,0 +1,16 @@
+.btn{
+    border-radius: 100px;
+}
+
+#search-btn:hover{
+    background-color: #218fcf;
+    
+}
+
+.form-control mr-sm-2{
+    border-radius: 100px;
+}
+
+#logo{
+   height: 1%; width:1%;  
+}
