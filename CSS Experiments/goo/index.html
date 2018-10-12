@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Goop</title>
+</head>
+<body>
+    <div class="container">
+            <header>
+                <div class="menu-trigger">
+                    <span></span>
+                </div>
+            </header>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+            <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" result="goo"/>
+                <feColorMatrix in= "blur" type="martix" values="1 0 0 0 0
+                                                                0 1 0 0 0
+                                                                0 0 1 0 0
+                                                                0 0 0 18 -6" />
+            </filter>
+        </defs>
+    </svg>
+</body>
+</html>
